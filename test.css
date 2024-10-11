@@ -1,0 +1,302 @@
+body {
+        background-color: #fffdeb;
+        font-family: "Assistant", sans-serif;
+      }
+      .container {
+        width: min(90%, 700px);
+        margin-inline: auto;
+        padding-block: 30px;
+      }
+      .header-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .header-flex .logo-box {
+        width: 200px;
+        height: 100px;
+      }
+      .header-flex .logo-box img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+      .header-flex .header-info a {
+        text-decoration: none;
+        display: block;
+        margin-bottom: 5px;
+        font-size: 18px;
+        text-align: right;
+        font-weight: 700;
+      }
+
+      .text-color {
+        color: #145b9f;
+      }
+      .first-box {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .first-box h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      .first-box a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 60px;
+        background-color: #fc9530;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 35px;
+        font-weight: 700;
+        display: inline-block;
+        margin-top: 20px;
+        -webkit-box-shadow: -5px 5px 0px 0px rgba(20, 91, 159, 0.89);
+        -moz-box-shadow: -5px 5px 0px 0px rgba(20, 91, 159, 0.89);
+        box-shadow: -5px 5px 0px 0px rgba(20, 91, 159, 0.89);
+      }
+      .second-box {
+    text-align: center;
+    margin-top: 30px;
+    }
+    .second-box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    }
+    .third-box{
+      text-align: right;
+      margin-top: 80px;
+      position: relative;
+    }
+    .third-box .dots{
+      transform: rotate(90deg); 
+    width: 110px;
+    position: absolute;
+    left: 0;
+    }
+    .third-box .stars{
+      width: 60px;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    }
+    .third-box h4{
+            font-size: 22px;
+    }
+    .third-box p{
+            font-size: 22px;
+            line-height: 1.5;
+            font-weight: 700;
+            margin-top: 20px;
+            width: 75%;
+            margin-left: auto;
+    }
+    .fourth-box{
+      text-align: center;
+      margin-top: 40px;
+      position: relative;
+    }
+    .fourth-box .dots{
+      transform: rotate(90deg);
+    width: 110px;
+    position: absolute;
+    left: 0;
+    }
+    .fourth-box .stars{
+      width: 60px;
+    position: absolute;
+    right: -5px;
+    top: 60%;
+    }
+    .fourth-box img{
+      width: 400px;
+    }
+    .fifth-box{
+      text-align: right;
+      margin-top: 50px;
+    }
+    .fifth-box p{
+       font-size: 22px;
+       font-weight: 700;
+       line-height: 1.7;
+    }
+    .service-box{
+      text-align: right;
+      margin-top: 50px;
+    }
+  
+    .service-box h4{
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .service-box .inner-flex{
+      display: flex;
+      justify-content: space-between;
+      column-gap: 50px;
+      align-items: center;
+    }
+    .service-box .inner-flex.reverse{
+      flex-direction: row-reverse;
+    }
+    .service-box .inner-flex img{
+      width: 50%;
+    }
+    .service-box .inner-flex ul {
+      padding-left: 0px;
+    }
+    .service-box .inner-flex ul li{
+      font-size: 18px;
+      color: #145b9f;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+    .footer-heading{
+      position: relative;
+    }
+    .footer-heading .stars{
+      width: 60px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    z-index: -1;
+    }
+    .footer-heading h4{
+      font-size: 22px;
+      text-align: right;
+      margin-top: 30px;
+    }
+    .footer-links{
+      margin-top: 40px;
+      text-align: right;
+      position: relative;
+    }
+    .footer-links .stars{
+      width: 60px;
+    position: absolute;
+    left: 0;
+    }
+    .footer-links h5{
+       font-size: 20px;
+       margin-bottom: 10px;
+    }
+    .footer-links h5 a{
+      text-decoration: underline;
+      font-size: 20px;
+    }
+    .footer-signature{
+      margin-top: 40px;
+    }
+    .footer-signature p{
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .footer-flex{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      border-bottom: 1px solid #000;
+      padding-bottom: 30px;
+      padding-inline: 20px;
+      align-items: center;
+      position: relative;
+    }
+    .footer-flex ul{
+      list-style: none;
+    }
+    .footer-flex ul li{
+      display: inline-block;
+      margin-right: 5px;
+    }
+    .footer-flex ul li img{
+      width: 25px;
+      height: auto;
+      object-fit: contain;
+    }
+    .footer-flex img{
+      width: 200px;
+      height: auto;
+    }
+
+    .footer-flex .dots-flat{
+      position: absolute;
+    width: 100px;
+    top: -40px;
+    left: 0px;
+    }
+    .footer-flex .stars{
+      position: absolute;
+    width: 60px;
+    top: -40px;
+    right: 0px;
+    }
+    .ftr-link{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      padding-inline: 20px;
+      padding-bottom: 30px;
+    }
+    .ftr-link p{
+      font-size: 18px;
+    }
+    .ftr-link ul{
+      list-style: none;
+      padding-left: 0px;
+    }
+    .ftr-link ul li{
+      font-size: 18px;
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .third-service{
+      position: relative;
+    }
+    .third-service .dots{
+      transform: rotate(90deg);
+    width: 110px;
+    position: absolute;
+    left: -50px;
+    top: 80%;
+    }
+    .second-service{
+      position: relative;
+
+    }
+    .second-service h4{
+      text-align: left;
+    }
+    .second-service .dots{
+      transform: rotate(90deg);
+    width: 110px;
+    position: absolute;
+    top: 100px;
+    }
+    .second-service .stars{
+      width: 60px;
+    position: absolute;
+    left: -28px;
+    top: 70px;
+    z-index: -1;
+    }
+    .second-service .stars-big{
+      width: 100px;
+    top: 82%;
+    right: -21px;
+    position: absolute;
+    z-index: -1; 
+    }
+    .first-service{
+      position: relative;
+    }
+    .first-service .dots{
+      transform: rotate(90deg);
+    width: 110px;
+    position: absolute;
+    left: -90px;
+    top: 90%; 
+    }
